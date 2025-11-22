@@ -32,6 +32,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
 module boolean_function_4var (
     input  wire A,
     input  wire B,
@@ -43,7 +44,7 @@ module boolean_function_4var (
 assign F = (~A & B) | (C & D) | (A & ~D);
 
 endmodule
-
+```
 Developed by: RegisterNumber:*/
 
 
