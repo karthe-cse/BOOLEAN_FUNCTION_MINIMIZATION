@@ -32,15 +32,26 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+module boolean_function_4var (
+    input  wire A,
+    input  wire B,
+    input  wire C,
+    input  wire D,
+    output wire F
+);
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+assign F = (~A & B) | (C & D) | (A & ~D);
+
+endmodule
 
 Developed by: RegisterNumber:*/
 
 
 **RTL realization**
+<img width="1027" height="592" alt="Screenshot 2025-11-22 110632" src="https://github.com/user-attachments/assets/75d390e4-776a-4931-bbbb-3abda1431f56" />
 
 **Output:**
+<img width="1113" height="820" alt="Screenshot 2025-11-22 110703" src="https://github.com/user-attachments/assets/ec4b0785-2107-4d03-97e1-3cd92295490d" />
 
 **RTL**
 
